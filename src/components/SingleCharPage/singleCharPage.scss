@@ -1,0 +1,36 @@
+.single-char{
+   margin-top: 50px;
+   display: flex;
+   &__img {
+      max-width: 293px;
+      margin-right: 50px;
+   }
+
+   &__info {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+   }
+
+   &__name {
+      margin-bottom: 25px;
+      text-transform: uppercase;
+   }
+
+   &-enter {
+      opacity: 0;
+   }
+   &-enter-active {
+         opacity: 1;
+         transition: opacity 500ms ease-in;
+   }
+   &-exit {
+         opacity: 1;
+   }
+   &-exit-active {
+         opacity: 0;
+         transition: opacity 500ms ease-in;
+   }
+
+}
